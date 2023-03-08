@@ -1,0 +1,24 @@
+{
+  "development": {
+    "username": "postgres",
+    "password": "password",
+    "database": "authentication",
+    "host": "127.0.0.1",
+    "dialect": "postgres"
+  },
+  "test": {
+    "username": "postgres",
+    "password": "password",
+    "database": "authentication",
+    "host": "127.0.0.1",
+    "dialect": "postgres"
+  },
+  "docker": {
+    "username": "postgres",
+    "password": "password",
+    "database": "authentication",
+    "host": "auth-db",
+    "dialect": "postgres",
+    "port": 5432
+  }
+}
