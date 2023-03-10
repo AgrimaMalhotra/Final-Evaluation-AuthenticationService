@@ -7,7 +7,6 @@ const validate = (reqSchema, reqProperty) => {
       if (error) {
         throw new httpError('Check request', http2Constants.HTTP_STATUS_BAD_REQUEST);
       }
-
       next();
     }
     catch(err){
